@@ -19,39 +19,26 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+$date = new DateTime();
+
 
 //$username = $_REQUEST['username'];
 //$password = $_REQUEST['password'];
 
+$content = file_get_contents("php://input");
 
-$date_day = date("Y-m-d");
-$date_time = date('H:i:s');
-
-$month = date('n');
-$year = date('Y');
-if($month>='5'  && $month <='10'){
-    $semester =1;
-
-}else{
-    $semester =2;
-    if($month >= 1 && $month <5){
-        $year = $year-1;
-    }
-}
-$studentArray = array();
-
-$sql_student = "SELECT * FROM tb_students where tb_student_status = 1";
-$result_student = mysqli_query($conn, $sql_student);
-while ($row = mysqli_fetch_assoc($result_student)) {
-    $name = $row['tb_student_name'].' '.$row['tb_student_sname'];
-    $studentAll = array('name' => $name,
-        'code' => $row['tb_student_code']);
-    $studentArray[] = $studentAll;
-}
+$jsonArray = json_decode($content,true);
 
 
 
-echo json_encode($studentArray);
+$ruletype_name = $jsonArray['ruletype_name'];
+$ruletype_score = $jsonArray['ruletype_score'];
+
+
+$sql_insert = "INSERT INTO tb_ruletypes
+VALUES (null , '".$ruletype_name."', '".$ruletype_score."', 1 , '".$date->format('Y-m-d H:i:s')."');";
+$result = mysqli_query($conn, $sql_insert);
+
 
 
 
