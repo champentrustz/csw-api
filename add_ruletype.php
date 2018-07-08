@@ -33,10 +33,12 @@ $jsonArray = json_decode($content,true);
 
 $ruletype_name = $jsonArray['ruletype_name'];
 $ruletype_score = $jsonArray['ruletype_score'];
+$ruletype_type = $jsonArray['ruletype_type'];
+
 
 
 $sql_insert = "INSERT INTO tb_ruletypes
-VALUES (null , '".$ruletype_name."', '".$ruletype_score."', 1 , '".$date->format('Y-m-d H:i:s')."');";
+VALUES (null , '".$ruletype_name."', '".$ruletype_score."', '".$ruletype_type."' ,1 , '".$date->format('Y-m-d H:i:s')."');";
 $result = mysqli_query($conn, $sql_insert);
 
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985162-1f3b-471b-8b95-64d44c4c295e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/delete_deduction_ruletype.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update_deduction_ruletype.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-student-json.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_deduction_ruletype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_ruletype.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_ruletype.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,35 +17,31 @@
       <file leaf-file-name="teacher_check.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teacher_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="1054">
               <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_deduction_ruletype.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/update_deduction_ruletype.php">
+      <file leaf-file-name="add_ruletype.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_ruletype.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_deduction_ruletype.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delete_deduction_ruletype.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
+      <file leaf-file-name="update_ruletype.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update_ruletype.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="add_deduction_ruletype.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/add_deduction_ruletype.php">
+      <file leaf-file-name="function-save-student-exercise.php" pinned="false" current-in-tab="false">
+        <entry file="file://D:/MAMP/htdocs/php/student-exercise/function-save-student-exercise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="646">
+              <caret line="38" column="225" selection-start-line="38" selection-start-column="197" selection-end-line="38" selection-end-column="225" />
             </state>
           </provider>
         </entry>
@@ -56,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/check_late.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -64,17 +58,8 @@
       <file leaf-file-name="get_rule_score.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_rule_score.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="40" lean-forward="true" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_now_semester.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_now_semester.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="680">
+              <caret line="40" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -151,9 +136,10 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/get_sms_data.php" />
         <option value="$PROJECT_DIR$/teacher_check.php" />
-        <option value="$PROJECT_DIR$/update_deduction_ruletype.php" />
-        <option value="$PROJECT_DIR$/delete_deduction_ruletype.php" />
         <option value="$PROJECT_DIR$/add_deduction_ruletype.php" />
+        <option value="$PROJECT_DIR$/delete_deduction_ruletype.php" />
+        <option value="$PROJECT_DIR$/update_deduction_ruletype.php" />
+        <option value="$PROJECT_DIR$/add_ruletype.php" />
       </list>
     </option>
   </component>
@@ -178,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,18 +229,19 @@
       <workItem from="1527466043937" duration="3018000" />
       <workItem from="1527638026321" duration="5000" />
       <workItem from="1530177037584" duration="956000" />
-      <workItem from="1530453004784" duration="2914000" />
+      <workItem from="1530453004784" duration="4537000" />
+      <workItem from="1530461467212" duration="959000" />
+      <workItem from="1530866613170" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69922000" />
+    <option name="totallyTimeSpent" value="72514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1314" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31309903" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3141946" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -263,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3003096" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,23 +301,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/projectphp/information/online_checkin/include/class_display.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_date_day.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
@@ -578,52 +548,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-student-json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher_check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/search-student-json.php" />
     <entry file="file://$PROJECT_DIR$/check_late.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_rule_score.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="40" lean-forward="true" selection-end-line="48" />
+        <state relative-caret-position="680">
+          <caret line="40" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update_deduction_ruletype.php">
+    <entry file="file://D:/MAMP/htdocs/php/student-exercise/function-save-student-exercise.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="646">
+          <caret line="38" column="225" selection-start-line="38" selection-start-column="197" selection-end-line="38" selection-end-column="225" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delete_deduction_ruletype.php">
+    <entry file="file://$PROJECT_DIR$/add_deduction_ruletype.php" />
+    <entry file="file://$PROJECT_DIR$/delete_deduction_ruletype.php" />
+    <entry file="file://$PROJECT_DIR$/update_deduction_ruletype.php" />
+    <entry file="file://$PROJECT_DIR$/teacher_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="1054">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_deduction_ruletype.php">
+    <entry file="file://$PROJECT_DIR$/add_ruletype.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_ruletype.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
