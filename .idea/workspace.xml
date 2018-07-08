@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04985162-1f3b-471b-8b95-64d44c4c295e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/add_rule_score.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_ruletype.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_ruletype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_ruletype.php" beforeDir="false" afterPath="$PROJECT_DIR$/update_ruletype.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,15 +27,37 @@
       <file leaf-file-name="add_ruletype.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_ruletype.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="306">
+              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_ruletype.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="change_password.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/change_password.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_ruletype.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update_ruletype.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_rule_score.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/add_rule_score.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="function-save-student-exercise.php" pinned="false" current-in-tab="false">
@@ -60,15 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
               <caret line="40" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_semester.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_semester.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" selection-start-line="49" selection-end-line="53" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -109,6 +123,7 @@
       <find>$row_student_room</find>
       <find>sem</find>
       <find>display</find>
+      <find>$deduction_late</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +155,9 @@
         <option value="$PROJECT_DIR$/delete_deduction_ruletype.php" />
         <option value="$PROJECT_DIR$/update_deduction_ruletype.php" />
         <option value="$PROJECT_DIR$/add_ruletype.php" />
+        <option value="$PROJECT_DIR$/add_score.php" />
+        <option value="$PROJECT_DIR$/update_ruletype.php" />
+        <option value="$PROJECT_DIR$/add_rule_score.php" />
       </list>
     </option>
   </component>
@@ -164,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,16 +250,18 @@
       <workItem from="1530453004784" duration="4537000" />
       <workItem from="1530461467212" duration="959000" />
       <workItem from="1530866613170" duration="10000" />
+      <workItem from="1531074808672" duration="5029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72514000" />
+    <option name="totallyTimeSpent" value="77543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1314" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3141946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31897926" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -250,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3003096" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3003096" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,19 +285,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26634768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -301,20 +321,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_date_day.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacher_check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -450,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/change_password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -580,15 +579,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/add_score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/add_ruletype.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="306">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update_ruletype.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_rule_score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
